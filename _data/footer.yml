@@ -17,9 +17,9 @@ columns:
   - name: Contact
     description: | # Can be Markdown
       Social icons links defined in `_config.yml`
-      * Street name
-      * 1234 postal code
-      * Country
+      * PO Box 420
+      * Norwich, VT 05055
+      * USA
     connectIcons: true
 
   # EXAMPLE
