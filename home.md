@@ -7,6 +7,7 @@ background: /assets/images/vermont-panorama-large.jpeg
 imageLicense: |
   None provided at the website https://val.vtecostudies.org/
 height: 50vh
+overlayColor: transparent # the default is a sligtly tinted overlay to make it easier to read the text, but to make it look abit like the existing website I have removed this here
 cta:
   - text: Start exploring
     href: /occurrence/search
