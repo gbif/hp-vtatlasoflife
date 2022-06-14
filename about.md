@@ -2,9 +2,9 @@
 lang-ref: about
 title: About
 description: Lorem markdownum spatium limes indefessus neque at orat aestuat
-background: /assets/images/moss.jpg
+background: /assets/images/pluvialis_squatarola_2862284985.jpeg
 imageLicense: |
-  Photo by mhoefft via [gbif.org](https://www.gbif.org/occurrence/1580487687)
+  [Pluvialis squatarola (Linnaeus, 1758)](/occurrence/search/?entity=2862284985) observed in United States of America by Kyle Tansley [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/)
 height: 70vh
 ---
 
