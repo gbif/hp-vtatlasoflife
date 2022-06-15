@@ -71,7 +71,7 @@ var siteConfig = {
         }
       ]
     },
-    highlightedFilters: ['q','scientificName','gadmGid','locality','elevation','year','basisOfRecord','recordedBy','publishingOrg','datasetName','occurrenceIssue'],
+    highlightedFilters: ['q','scientificName','gadmGid','locality','elevation','year','recordedBy','publishingOrg','datasetName'],
     occurrenceSearchTabs: ['GALLERY', 'MAP', 'TABLE', 'DATASETS'] // what tabs should be shown
     // see https://hp-theme.gbif-staging.org/data-exploration-config for more options
   },
