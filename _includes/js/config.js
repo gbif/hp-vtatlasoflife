@@ -75,6 +75,7 @@ var siteConfig = {
     occurrenceSearchTabs: ['GALLERY', 'MAP', 'TABLE', 'DATASETS'] // what tabs should be shown
     // see https://hp-theme.gbif-staging.org/data-exploration-config for more options
   }
+};
 
 // example of a language specific route overwrite
 if (pageLang === 'da')  {
