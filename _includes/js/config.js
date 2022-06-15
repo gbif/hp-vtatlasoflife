@@ -72,10 +72,10 @@ var siteConfig = {
       ]
     },
     highlightedFilters: ['q','scientificName','gadmGid','locality','elevation','year','recordedBy','publishingOrg','datasetName'],
-    occurrenceSearchTabs: ['GALLERY', 'MAP', 'TABLE', 'DATASETS'] // what tabs should be shown
+    occurrenceSearchTabs: ['GALLERY', 'MAP', 'TABLE', 'DATASETS'], // what tabs should be shown
+    defaultTableColumns: ['scientificName','features','coordinates','year','month','basisOfRecord','dataset','publisher','recordedBy'],
     // see https://hp-theme.gbif-staging.org/data-exploration-config for more options
   },
-  defaultTableColumns: ['scientificName','features','coordinates','year','month','basisOfRecord','dataset','publisher','recordedBy']
 };
 
 // example of a language specific route overwrite
