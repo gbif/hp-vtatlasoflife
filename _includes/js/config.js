@@ -71,11 +71,14 @@ var siteConfig = {
         }
       ]
     },
-    highlightedFilters: ['taxonKey','scientificName','gadmGid','stateProvince','elevation','year','basisOfRecord','recordedBy','publishingOrg','datasetName','occurrenceIssue'],
+    highlightedFilters: ['taxonKey','scientificName','gadmGid','locale','elevation','year','basisOfRecord','recordedBy','publishingOrg','datasetName','occurrenceIssue'],
     occurrenceSearchTabs: ['GALLERY', 'MAP', 'TABLE', 'DATASETS'] // what tabs should be shown
     // see https://hp-theme.gbif-staging.org/data-exploration-config for more options
+  },
+  dataset: {
+    highlightedFilters: ['q', 'publisherKey', 'datasetType', 'license'],
+    excludedFilters: ['publishingCountryCode']
   }
-};
 
 // example of a language specific route overwrite
 if (pageLang === 'da')  {
