@@ -7,14 +7,14 @@ background: /assets/images/data-explorer-background.jpg
 imageLicense: |
   None provided at the website https://val.vtecostudies.org/
 height: 50vh
-overlayColor: background: rgba(35, 92, 164, 0.25) # transparent # the default is a sligtly tinted overlay to make it easier to read the text, but to make it look a bit like the existing website I have removed this here
+overlayColor: transparent # the default is a sligtly tinted overlay to make it easier to read the text, but to make it look a bit like the existing website I have removed this here
 cta:
   - text: Start exploring
     href: /occurrence/search
     isPrimary: true
 #  - text: About
 #    href: /about
-permalink: /
+permalink: /occurrence/search
 ---
 
 Vermont Atlas of Life GBIF Data explorer
