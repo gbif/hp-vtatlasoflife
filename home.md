@@ -14,7 +14,7 @@ cta:
     isPrimary: true
 #  - text: About
 #    href: /about
-permalink: /occurrence/search
+permalink: /
 ---
 
 Vermont Atlas of Life GBIF Data explorer
