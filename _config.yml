@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 # You should also look at https://hp-theme.gbif-staging.org/documentation-intro for options
@@ -19,14 +19,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: The Vermont Atlas of Life Data Explorer # the title of your site should go here
+title: The Vermont Atlas of Life GBIF Data Explorer # the title of your site should go here
 email: val@vtecostudies.org
 description: >- # this means to ignore newlines (until baseurl:)
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://hp-vtatlasoflife.gbif.org/" # the base hostname & protocol for your site, e.g. http://example.com
+url: https://val.vtecostudies.org # "https://hp-vtatlasoflife.gbif.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: VTEcostudies # if you have an account you want to link to. Else comment this line out
 #github_username:  yourname # if you have an account you want to link to. Else comment this line out
 facebook_url: https://www.facebook.com/pages/Vermont-Center-for-Ecostudies/56930912454
@@ -44,10 +44,10 @@ remote_theme: gbif/jekyll-hp-base-theme
 
 # For use by the 'standardPrivacy' layout
 privacy:
-  name: Your organisation name
-  domain: your-domain.org
-  contactEmail: info@your-domain.org
-  helpdeskEmail: helpdesk@your-domain.org
+  name: Vermont Center for Ecostudies
+  domain: val.vtecostudies.org
+  contactEmail: info@vtecostudies.org
+  helpdeskEmail: vtatlasoflife@vtecostudies.org
 
 # The text for the terms can be changed by adding translations for 'terms', 'acceptTerms' and 'rejectTerms' in `/_data/translations.yml`.
 siteMeasurements:
@@ -66,8 +66,8 @@ algae:
     # square: false               # Should corners be square or rounded
     colors:
       primary: "#176f75"          # Primary color of your brand. Use HEX code. Used for buttons and links
-      links: "#176f75"          # What color should links have. Use a HEX code. DEfault is primary color. 
-    coloredHeadlineLinks: false   # If a headline is a link, then use the link color. Default is true. 
+      links: "#176f75"          # What color should links have. Use a HEX code. DEfault is primary color.
+    coloredHeadlineLinks: false   # If a headline is a link, then use the link color. Default is true.
   navbar:                         # RELATED TO NAVIGATION BAR
     # brandBackground: yellow     # Define a custom background for the logo/title in the top navigation bar
     # color: "tomato"             # What color should the navbar be?
