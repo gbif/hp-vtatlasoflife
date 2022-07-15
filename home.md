@@ -1,20 +1,20 @@
 ---
 lang-ref: home
 layout: home
-title: The Vermont Atlas of Life Data Explorer
+title: The Vermont Atlas of Life GBIF Data Explorer
 description: Open Access to Vermont’s Biodiversity Data
 background: /assets/images/data-explorer-background.jpg
 imageLicense: |
   None provided at the website https://val.vtecostudies.org/
 height: 50vh
-overlayColor: transparent # the default is a sligtly tinted overlay to make it easier to read the text, but to make it look a bit like the existing website I have removed this here
+overlayColor: background: rgba(35, 92, 164, 0.25) # transparent # the default is a sligtly tinted overlay to make it easier to read the text, but to make it look a bit like the existing website I have removed this here
 cta:
   - text: Start exploring
     href: /occurrence/search
     isPrimary: true
-  - text: About
-    href: /about
-permalink: /
+#  - text: About
+#    href: /about
+permalink: /occurrence/search
 ---
 
 Edit `/home.md` to change the text.
@@ -28,5 +28,3 @@ Telephus *valent*, instructo refers. Ille **est resque**, sic ruris erit ante
 profana detegeret. Et cogor tractus arboribus prensurum praesens memorantur
 neque inplet iussus temeraria merui **fas ecce** aethera dixit fieretque [plura
 tollebat altius](http://virgineusque.net/est.html).
-
-
