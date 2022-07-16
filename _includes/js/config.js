@@ -22,15 +22,15 @@ var siteConfig = {
       zoom: 7.757629316135515
     },
     // You probably need help to configure the scope - so just ask
-    // for his demo site we only show Fungi (taxonKey=5). It use the predicate structure known from GBIF download API. 
+    // for his demo site we only show Fungi (taxonKey=5). It use the predicate structure known from GBIF download API.
     // See https://www.gbif.org/developer/occurrence (long page without enough anchors - search for "Occurrence Download Predicates")
-    // The format is however slightly different, in that is use camelCase for keys instead of CONSTANT_CASE. 
-    // 
+    // The format is however slightly different, in that is use camelCase for keys instead of CONSTANT_CASE.
+    //
     // I've created an initial attempt at an occurrence scope for the site.
     // data from the GADM area vermont (so that requires the occurrences to have coordinates)
     // or that has (country US AND state Vermont AND do not have a coordinate_country issues assigned)
     // or is from the geometry including roughtly the connectocut river (I just drew a rough polygon you would want to check it)
-    rootPredicate: { 
+    rootPredicate: {
       type: 'or',
       predicates: [
         // first include data from the US in the state of Vermont that do not have coordinates
@@ -71,7 +71,7 @@ var siteConfig = {
         }
       ]
     },
-    highlightedFilters: ['q','scientificName','gadmGid','locality','elevation','year','recordedBy','publishingOrg','datasetName'],
+    highlightedFilters: ['scientificName','q','scientificName','gadmGid','locality','elevation','year','recordedBy','publishingOrg','datasetName','scientificName'],
     occurrenceSearchTabs: ['GALLERY', 'MAP', 'TABLE', 'DATASETS'], // what tabs should be shown
     defaultTableColumns: ['features','coordinates','locality','year','basisOfRecord','dataset','publisher','recordedBy','collectionCode','institutionCode'],
     // see https://hp-theme.gbif-staging.org/data-exploration-config for more options

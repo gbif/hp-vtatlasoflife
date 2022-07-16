@@ -17,8 +17,8 @@ cta:
 permalink: /
 ---
 
-Vermont Atlas of Life GBIF Data explorer
+Vermont Atlas of Life GBIF Data Explorer
+
+An online platform provided by GBIF for exploring biodiversity information in Vermont
 
 Discovering and Sharing Biodiversity Knowledge
-
-An online platform provided by GBIF for exploring biodiversity information in Vermont.
