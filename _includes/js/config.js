@@ -86,10 +86,10 @@ var siteConfig = {
   maps: {
     locale: 'en', // what language should be used for GBIF base maps? See https://tile.gbif.org/ui/ for available languages in basemaps
     defaultProjection: 'MERCATOR', // what is the default projection
-    defaultMapStyle: 'SATELLITE', // what is the default style
+    defaultMapStyle: 'NATURAL', // what is the default style
     // what options are avialable for which projections. Default styles are included, but you can also add your own if you are a carthography and style json expert. If not you probably need help.
     mapStyles: {
-      MERCATOR: ['SATELLITE', 'NATURAL', 'BRIGHT', 'DARK']
+      MERCATOR: ['NATURAL', 'SATELLITE', 'BRIGHT', 'DARK']
       , PLATE_CAREE: ['NATURAL', 'BRIGHT', 'DARK']
       //, ARCTIC: ['NATURAL', 'BRIGHT']
       //, ANTARCTIC: ['NATURAL', 'BRIGHT', 'DARK']
