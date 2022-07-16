@@ -73,11 +73,48 @@ var siteConfig = {
 */
       ]
     },
-    highlightedFilters: ['scientificName','q','scientificName','gadmGid','locality','elevation','year','recordedBy','publishingOrg','datasetName','scientificName'],
+    highlightedFilters: ['q','taxonKey','scientificName','gadmGid','locality','elevation','year','recordedBy','publishingOrg','datasetName'],
     occurrenceSearchTabs: ['GALLERY', 'MAP', 'TABLE', 'DATASETS'], // what tabs should be shown
     defaultTableColumns: ['features','coordinates','locality','year','basisOfRecord','dataset','publisher','recordedBy','collectionCode','institutionCode'],
     // see https://hp-theme.gbif-staging.org/data-exploration-config for more options
   },
+  apiKeys: {
+     // see https://github.com/gbif/hosted-portals/issues/229
+    "maptiler": "qcDo0JkF6EBKzpW7hlYB",
+  },
+  maps: {
+    locale: 'en', // what language should be used for GBIF base maps? See https://tile.gbif.org/ui/ for available languages in basemaps
+    defaultProjection: 'MERCATOR', // what is the default projection
+    defaultMapStyle: 'NATURAL', // what is the default style
+    // what options are avialable for which projections. Default styles are included, but you can also add your own if you are a carthography and style json expert. If not you probably need help.
+    mapStyles: {
+      ARCTIC: ['NATURAL', 'BRIGHT'],
+      PLATE_CAREE: ['NATURAL', 'BRIGHT', 'DARK'],
+      MERCATOR: ['NATURAL', 'BRIGHT', 'SATELLITE', 'DARK'],
+      ANTARCTIC: ['NATURAL', 'BRIGHT', 'DARK']
+    },
+    // you can optionally add your own map styles or overwrite existing ones
+/*
+    addMapStyles: function ({ mapStyleServer, language, pixelRatio, apiKeys, mapComponents }) {
+      return {
+        BRIGHT_MERCATOR_TEST: { // the name of your style
+          component: mapComponents.OpenlayersMap, // what map component to use OpenlayersMap | OpenlayersMapbox
+          labelKey: 'My custom bright map', // the label in the select. Use a translation key
+          mapConfig: {
+            basemapStyle: `https://route.to.your.style.json`,
+            projection: 'EPSG_3857'// one of 4326 | 3031 | 3857 | 3575
+          }
+        }
+      }
+    },
+    // rewire style names to show a different style
+    styleLookup: {
+      MERCATOR: {
+        BRIGHT: 'BRIGHT_MERCATOR_TEST' // when showing the map type NATURAL in Mercator, then use the style 'BRIGHT_MERCATOR_TEST'.
+      }
+    }
+*/
+  }
 };
 
 // example of a language specific route overwrite
