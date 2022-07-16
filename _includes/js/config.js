@@ -73,7 +73,8 @@ var siteConfig = {
 */
       ]
     },
-    highlightedFilters: ['q','taxonKey','scientificName','gadmGid','locality','elevation','year','recordedBy','publishingOrg','datasetName'],
+    //note that 'scientificName' is not available. 'taxonKey' stands-in for it.
+    highlightedFilters: ['q','taxonKey','gadmGid','locality','elevation','year','recordedBy','publishingOrg','datasetName'],
     occurrenceSearchTabs: ['GALLERY', 'MAP', 'TABLE', 'DATASETS'], // what tabs should be shown
     defaultTableColumns: ['features','coordinates','locality','year','basisOfRecord','dataset','publisher','recordedBy','collectionCode','institutionCode'],
     // see https://hp-theme.gbif-staging.org/data-exploration-config for more options
@@ -85,13 +86,13 @@ var siteConfig = {
   maps: {
     locale: 'en', // what language should be used for GBIF base maps? See https://tile.gbif.org/ui/ for available languages in basemaps
     defaultProjection: 'MERCATOR', // what is the default projection
-    defaultMapStyle: 'NATURAL', // what is the default style
+    defaultMapStyle: 'SATELLITE', // what is the default style
     // what options are avialable for which projections. Default styles are included, but you can also add your own if you are a carthography and style json expert. If not you probably need help.
     mapStyles: {
-      ARCTIC: ['NATURAL', 'BRIGHT'],
-      PLATE_CAREE: ['NATURAL', 'BRIGHT', 'DARK'],
-      MERCATOR: ['NATURAL', 'BRIGHT', 'SATELLITE', 'DARK'],
-      ANTARCTIC: ['NATURAL', 'BRIGHT', 'DARK']
+      MERCATOR: ['SATELLITE', 'NATURAL', 'BRIGHT', 'DARK']
+      , PLATE_CAREE: ['NATURAL', 'BRIGHT', 'DARK']
+      //, ARCTIC: ['NATURAL', 'BRIGHT']
+      //, ANTARCTIC: ['NATURAL', 'BRIGHT', 'DARK']
     },
     // you can optionally add your own map styles or overwrite existing ones
 /*
