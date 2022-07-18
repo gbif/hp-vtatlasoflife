@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines (until baseurl:)
   An online platform provided by GBIF for exploring biodiversity information in Vermont.
   Discovering and Sharing Biodiversity Knowledge
 baseurl: "/occurrence/search" # the subpath of your site, e.g. /blog
-url: "https://hp-vtatlasoflife.gbif.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: https://hp-vtatlasoflife.gbif.org # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: VTEcostudies # if you have an account you want to link to. Else comment this line out
 #github_username:  yourname # if you have an account you want to link to. Else comment this line out
 facebook_url: https://www.facebook.com/pages/Vermont-Center-for-Ecostudies/56930912454
