@@ -76,7 +76,7 @@ var siteConfig = {
     //note that 'scientificName' is not available. 'taxonKey' stands-in for it.
     highlightedFilters: ['q','taxonKey','gadmGid','locality','elevation','year','recordedBy','publishingOrg','datasetName'],
     occurrenceSearchTabs: ['GALLERY', 'MAP', 'TABLE', 'DATASETS'], // what tabs should be shown
-    defaultTableColumns: ['features','coordinates','locality','year','basisOfRecord','dataset','publisher','recordedBy','collectionCode','institutionCode'],
+    availableTableColumns: ['features','coordinates','locality','year','basisOfRecord','dataset','publisher','recordedBy','collectionCode','institutionCode'],
     // see https://hp-theme.gbif-staging.org/data-exploration-config for more options
   },
   apiKeys: {
