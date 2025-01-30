@@ -10,9 +10,8 @@ var siteConfig = {
   },
   "routes": {
     "occurrenceSearch": {
-      "route": "/"
-    },
-    "basename": "/gbif-explorer"
+      "route": "/gbif-explorer"
+    }
   },
   "locale": "en",
   "occurrence": {
@@ -78,16 +77,15 @@ var siteConfig = {
       "year",
       "recordedBy",
       "publishingOrg",
-      "datasetName"
     ],
     "excludedFilters": [
       "stateProvince",
       "continent",
       "country",
       "publishingCountry",
-      "hostingOrganization",
+      "hostingOrganizationKey",
       "networkKey",
-      "publishingProtocol"
+      "protocol"
     ],
     "occurrenceSearchTabs": [
       "GALLERY",
