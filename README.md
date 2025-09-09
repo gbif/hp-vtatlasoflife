@@ -4,7 +4,7 @@
 
 # Vermont Atlas of Life
 
-This Jekyll website, **[hp-vtatlasoflife](https://hp-vtatlasoflife.gbif.org/)**, makes use of a theme and biodiversity widgets developed by the GBIF network.
+This Jekyll website, **[hp-vtatlasoflife](https://vtatlasoflife.hp.gbif.org/)**, makes use of a theme and biodiversity widgets developed by the GBIF network.
 
 You can find information on editing this site and more on [gbif/hosted-portals](https://github.com/gbif/hosted-portals)
 
